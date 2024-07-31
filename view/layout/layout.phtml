@@ -24,8 +24,8 @@ $this->headScript()->appendFile('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bo
 #stats and  privacy banner
 #$this->headScript()->prependFile($this->assetUrl('js/stats1.js'));
 #$this->headScript()->prependFile($this->assetUrl('js/stats2.js'));
-$this->headScript()->appendFile($this->assetUrl('js/stats.js'));
-$this->headScript()->appendFile('https://www.unibo.it/++resource++unibo.cookiebanner/unibo-cookies.min.js?v=17');
+#$this->headScript()->appendFile($this->assetUrl('js/stats.js'));
+#$this->headScript()->appendFile('https://www.unibo.it/++resource++unibo.cookiebanner/unibo-cookies.min.js?v=17');
 $this->trigger('view.layout');
 $title = $site->title();
 $logo = $this->themeSetting('logo');
@@ -87,7 +87,8 @@ $userBar = $this->partial('common/user-bar', ['site' => $site]);
 				<ul class="nav navbar-nav">
 					<!--<li><a href="#">Link 1</a></li>
 					<li><a href="#">Link 2</a></li>-->
-					<li><a href="https://exhibits.ficlit.unibo.it/">Browse exhibitions</a></li>
+					<li><a href="https://pdd.ficlit.unibo.it/">Percorsi di Didattica Digitale</a></li>
+					<li><a href="https://exhibits.ficlit.unibo.it/">Mostre Virtuali</a></li>
 					<li><a href="https://dl.ficlit.unibo.it">Digital Library</a></li>
 					<li><a href="https://ficlit.unibo.it/it">FICLIT</a></li>	
 				</ul>
@@ -149,7 +150,7 @@ $userBar = $this->partial('common/user-bar', ['site' => $site]);
         <footer class="container-fluid">
                         <div class="new-footer">
                                 <div class="first-section">
-                                        <p class="footer-title">Mostre Virtuali FICLIT</p>
+                                        <p class="footer-title">Percorsi di Didattica Digitale FICLIT</p>
                                         <span class="footer-text">
                                                 <a href="https://www.unibo.it/en/university/privacy-policy-and-legal-notes/privacy-policy/personal-data-processing" alt="Privacy policy" target="_black" class="footer-a">Privacy Policy</a>
                                         </span>
@@ -159,7 +160,7 @@ $userBar = $this->partial('common/user-bar', ['site' => $site]);
                                         </span>
                                         <span class="footer-separator"> - <span>
                                         <span class="footer-text">
-                                                <a href="https://github.com/dharc-org/exhibits-omeka-s-theme" alt="Github" target="_black" class="footer-a">Github</a>
+                                                <a href="https://github.com/dharc-org/pdd-omeka-s-theme" alt="Github" target="_black" class="footer-a">Github</a>
                                         </span>
 
                                 </div>
@@ -189,7 +190,7 @@ $userBar = $this->partial('common/user-bar', ['site' => $site]);
                         </div>
 
                         <div class="copyright-footer">
-                                <p class="copyright-text"> © Copyright (c) 2021 by /DH.arc - Digital Humanities Advanced Research Centre, University of Bologna.</p>
+                                <p class="copyright-text"> © Copyright (c) 2024 by /DH.arc - Digital Humanities Advanced Research Centre, University of Bologna.</p>
                         </div>
                 </footer>
 
