@@ -110,7 +110,7 @@ form {
 /* navbar #top */
 #title-logo {
 	width:auto;
-	max-width:1200px;
+	max-width:1400px;
 	min-height:130px;
 	background-color:#fff;
 }
@@ -190,7 +190,7 @@ header {
 }
 
 header .row {
-	max-width:1200px;
+	max-width:1400px;
 	padding:0;
 	margin:0 auto;
 	border-bottom:1px solid #333;
@@ -214,7 +214,7 @@ header .title a {
 /*.main-container*/
 
 .main-container {
-	max-width:1200px;
+	max-width:1400px;
 	margin: 0 auto;
 	padding:0;
 }
@@ -289,10 +289,10 @@ header .title a {
 	}
 }
 
-@media (min-width:1200px){
+@media (min-width:1400px){
 	
 	.container{
-		width:1200px;
+		width:1400px;
 	}
 }
 
@@ -472,7 +472,7 @@ nav li li li li li a{
 }
 
 #side_navigation {
-	padding:0.5em;
+	padding:0.2em;
 	padding-top:1em;
 	background-color:#222222;
 }
