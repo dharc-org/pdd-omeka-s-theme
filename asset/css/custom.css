@@ -1161,3 +1161,7 @@ video {
 .list-text > li {
 	font-size: 1.25em;
 }
+
+.table-text {
+	font-size: 1.2em;
+}
