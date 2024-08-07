@@ -24,8 +24,8 @@ $this->headScript()->appendFile('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bo
 #stats and  privacy banner
 #$this->headScript()->prependFile($this->assetUrl('js/stats1.js'));
 #$this->headScript()->prependFile($this->assetUrl('js/stats2.js'));
-#$this->headScript()->appendFile($this->assetUrl('js/stats.js'));
-#$this->headScript()->appendFile('https://www.unibo.it/++resource++unibo.cookiebanner/unibo-cookies.min.js?v=17');
+$this->headScript()->appendFile($this->assetUrl('js/stats.js'));
+$this->headScript()->appendFile('https://www.unibo.it/++resource++unibo.cookiebanner/unibo-cookies.min.js?v=17');
 $this->trigger('view.layout');
 $title = $site->title();
 $logo = $this->themeSetting('logo');
