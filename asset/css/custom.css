@@ -224,7 +224,7 @@ header .title a {
 	background-color:#000;
 	background-color:rgba(0,0,0,.7);
 	padding:4%;
-	margin-right: 100px;
+	margin-right: 15px;
 	margin-left: 0px;
 }
 
@@ -241,7 +241,7 @@ header .title a {
 	font-weight: 100;
 	overflow-wrap: break-word;
 	display: flow-root;
-	margin-right: 100px;
+	margin-right: 15px;
 }
 
 @media (min-width:768px) {
