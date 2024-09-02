@@ -437,20 +437,17 @@ nav li li li li li a{
 	margin:0;
 }
 
-#mainnav li.active ul, #mainnav li:hover ul{
+#mainnav li.active>ul, #mainnav li:hover>ul{
 	display:block;
 	padding-inline-start: 0em;	
 }
 
-#mainnav li.nav-active>ul, #mainnav .nav>li:hover>ul{
+#mainnav li.nav-active>ul, #mainnav .nav li:hover>ul{
 	margin-left: 0.5em;
 }
 
-#mainnav li.nav-active>ul:not(.active){
-	background-color: #E6E8E6;
-}
 
-#mainnav li.active li:not(.active){
+#mainnav li.active li:not(.active)>a{
 	background-color: #E6E8E6;
 }
 
